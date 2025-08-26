@@ -2447,10 +2447,10 @@ a {
 }
 
 .card-img {
-  width: 480px;
+  width: 453px;
   border-radius: 10px;
+  height: 400px;
 }
-
 .card-bottom {
   padding: 30px;
 }
