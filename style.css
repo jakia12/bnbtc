@@ -3692,3 +3692,29 @@ a {
     grid-template-columns: 1fr; /* Stack vertically */
   }
 }
+
+.pack-card-img {
+  justify-content: center;
+  align-items: center;
+  padding-left: 15px;
+  padding-right: 15px;
+  display: none;
+}
+.pack-card-title {
+  margin-top: 20px;
+  font-family: Michroma, sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 28px;
+  margin-bottom: 30px;
+}
+.tkn_grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+@media screen and (max-width: 768px) {
+  .tkn_grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
