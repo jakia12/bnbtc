@@ -2447,9 +2447,9 @@ a {
 }
 
 .card-img {
-  width: 453px;
+  width: 444px;
   border-radius: 10px;
-  height: 400px;
+  height: 376px;
 }
 .card-bottom {
   padding: 30px;
@@ -3716,5 +3716,9 @@ a {
 @media screen and (max-width: 768px) {
   .tkn_grid {
     grid-template-columns: 1fr 1fr;
+  }
+  .slider-item {
+    margin-right: 0;
+    margin-bottom: 30px;
   }
 }
